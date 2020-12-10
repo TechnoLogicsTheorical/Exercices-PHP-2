@@ -5,8 +5,8 @@ $number2 = 4;
 
 //Code à faire ici
 
-echo "Addition : $number1 + $number2 = " . ($number1 + $number2);
-echo "Soustraction : $number1 - $number2 = " . ($number1 - $number2);
-echo "Multiplication : $number1 x $number2 = " . ($number1 * $number2);
-echo "Division : $number1 / $number2 = " . ($number1 / $number2);
+echo "Addition : $number1 + $number2 = " . ($number1 + $number2) . '<br>';
+echo "Soustraction : $number1 - $number2 = " . ($number1 - $number2) . '<br>';
+echo "Multiplication : $number1 x $number2 = " . ($number1 * $number2) . '<br>';
+echo "Division : $number1 / $number2 = " . ($number1 / $number2) . '<br>';
 echo "Reste de la division : $number1 % $number2 = " . ($number1 % $number2);

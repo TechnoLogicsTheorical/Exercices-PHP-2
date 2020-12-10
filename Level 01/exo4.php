@@ -14,7 +14,7 @@
     //Code à faire ici
         //Je vais le faire avec la syntaxe Herredoc (pas la bonne orthographe XD)
 echo <<<HTML
-<p>Le PHP permet de générer du HTML</p>
+    <p>Le PHP permet de générer du HTML</p>\n
 HTML;
     //Ici je dois utiliser la balise de fermeture de PHP car j'alterne entre HTML et PHP
     ?>

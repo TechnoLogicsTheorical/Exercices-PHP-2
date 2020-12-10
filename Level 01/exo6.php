@@ -8,10 +8,12 @@ echo "\$a vaut $a.<br>";
 echo "\$b vaut $b.<br>";
 echo "\$c vaut $c.<br>";
 
+echo "Changing values on variables <br>";
+
 /* Code à faire ici
-    a -> b
-    b -> c
-    c -> a
+    a <- b
+    b <- c
+    c <- a
 */
 $a = $b;
 $b = $c;

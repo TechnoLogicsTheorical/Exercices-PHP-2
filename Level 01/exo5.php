@@ -7,7 +7,10 @@ $name = "Jean";
 $age = 25;
 
 // Je vais utiliser l'interpolation de chaine car je n'aime pas la syntaxe de concaténation, elle ne s'utilise qu'avec les 'doubles quotes'
-echo "$name à $age ans !";
+echo "$name à $age ans ! <br> Debug des variables : ";
+
+var_dump($name);
+var_dump($age);
 
 // Au lieux de echo Jean . ' à ' . $age . 'ans !' 
 
