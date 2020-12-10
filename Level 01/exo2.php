@@ -8,3 +8,5 @@ fonctionnent comme en JS,
 
 Trouvez maintenant quelle est la balise de fermeture du PHP à écrire à la suite de ce commentaire
 */
+
+?>
