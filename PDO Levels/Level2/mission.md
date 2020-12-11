@@ -1,0 +1,1 @@
+# Créer un framework / manager permettant de gerer plus facilement PDO avec des functions ou une classe d'objet
