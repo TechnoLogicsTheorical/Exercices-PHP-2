@@ -6,3 +6,15 @@ $weirdArray = [["prenom" => "Justine"], "chat",["prenom" => "Julien"], "chien", 
 //sinon juste la valeur de l'élément.
 
 //Code à faire ici
+echo '<h1>Parcour du tableau</h1>';
+foreach ($weirdArray as $key => $value) {
+    if (is_array($value)) {
+        foreach ($value as $key => $value) {
+            echo '<h2>Parcour d\'un autre tableau</h2>';
+            echo "Clé du tableau : $key | Valeur : $value <br>";
+        }
+    } 
+    echo "Clé du tableau : $key | Valeur : $value <br>";
+}
+
+// not good :/

@@ -1,10 +1,11 @@
 <?php
 $a = 1;
-function test()
+// la portee de variable et le manque de l'argument ! 
+function test($a)
 { 
     echo $a;
 }
 
-test();
+test($a);
 
 //Trouver quel concept fait qu'il y a une erreur dans ce code. Trouvez un moyen d'afficher 1.

@@ -5,3 +5,8 @@
 //(ce qui donnerait grf) par exemple, peut-importe
 
 //Code à faire ici
+
+function deleteChar(string $word):string {
+   
+    return '';
+}

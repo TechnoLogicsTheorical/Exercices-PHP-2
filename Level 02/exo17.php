@@ -5,3 +5,6 @@ $tableau = ['lundi', 'mardi', 'mercredi', 'jeudi', 'vendredi', 'samedi', 'dimanc
 //exemple : 0 => lundi
 
 //Code à faire ici
+
+$randDay = rand(0,6);
+echo "$randDay => {$tableau[$randDay]}";
