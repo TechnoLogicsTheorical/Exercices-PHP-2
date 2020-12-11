@@ -8,3 +8,11 @@ $allnotes = [$notes1, $notes2, $notes3];
 //Créer une fonction qui donne la moyenne de chacun des groupes de notes. Cette fonction prendra en paramètre un tableau, vous devrez donc passez chaque index du tableau $allnotes (càd l'appeller 3 fois pour obtenir les 3 moyennes, puis les affichez).
 
 //Code à faire ici
+
+function averageNotes(array $tab):int {
+    return (int)(array_sum($tab) / count($tab));
+}
+
+echo '<p>La moyenne de la classe 1 est de ' . averageNotes($allnotes[0]) . ' / 20</p>';
+echo '<p>La moyenne de la classe 2 est de ' . averageNotes($allnotes[1]) . ' / 20</p>';
+echo '<p>La moyenne de la classe 3 est de ' . averageNotes($allnotes[2]) . ' / 20</p>';
